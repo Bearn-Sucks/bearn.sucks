@@ -32,7 +32,7 @@ export default function Home() {
         </div>
         <div className="p-6 font-mono relative flex flex-col gap-3 items-center justify-center text-center bg-neutral-950/50 rounded-full">
           <p className="text-2xl sm:text-2xl text-amber-300 drop-shadow-lg">Bearn is still under construction.</p>
-          <p className="text-2xl sm:text-2xl text-amber-300 drop-shadow-lg">
+          <p className="text-2xl sm:text-2xl text-amber-300 drop-shadow-lg hover:underline">
             <a href="https://x.com/Bearnsucks" target="_blank" rel="noopener noreferrer">Follow the twitter account for more updates.</a>
           </p>
         </div>
