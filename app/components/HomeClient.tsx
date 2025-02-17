@@ -19,7 +19,7 @@ export default function HomeClient({ initialSlide }: { initialSlide: number }) {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setSlideNumber((current) => (current === 4 ? 1 : current + 1));
+      setSlideNumber((current) => (current === 3 ? 1 : current + 1));
     }, 6000);
 
     // Cleanup the interval on component unmount

@@ -2,7 +2,7 @@ import HomeClient from "./components/HomeClient"; // Import the client component
 
 // Server-side function to compute the initial slide
 async function getInitialSlide() {
-  return Math.floor(Math.random() * 4) + 1;
+  return Math.floor(Math.random() * 3) + 1;
 }
 
 export default async function Home() {
